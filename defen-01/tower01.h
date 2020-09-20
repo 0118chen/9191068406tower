@@ -5,7 +5,7 @@ class tower01 : public defenseclass
 {
 public:
     tower01(const int ,const int );//坐标
-
+    void Attack(QVector<EnemyBaseClass*>&) override;
 };
 
 #endif // TOWER01_H

@@ -37,7 +37,9 @@ SOURCES += \
     enemy01.cpp \
     enemy02.cpp \
     enemy03.cpp \
-    gengeralpath.cpp
+    gengeralpath.cpp \
+    window.cpp \
+    enemybaseclass.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -51,5 +53,10 @@ HEADERS += \
     enemy_2.h \
     enemy_3.h \
     gengeralpath.h \
-    coor.h \
-    enemy_4.h
+    enemy_4.h \
+    window.h \
+    Coor.h \
+    enemybaseclass.h
+
+FORMS += \
+    window.ui

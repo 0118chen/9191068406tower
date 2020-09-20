@@ -5,7 +5,8 @@
 class tower04:public defenseclass
 {
 public:
-    tower04(const int , const int);
+    tower04(const int, const int);
+    void Attack(QVector<EnemyBaseClass*>&) override;
 };
 
 #endif // TOWER04_H
